@@ -1,12 +1,13 @@
 .game-body
 {
+    background:url(src/assets/interface/fundo.png);
     display: flex;
     flex-direction: column;
     justify-content: normal;
     align-items: center;
     width: 100%;
     height: 100%;
-    background:url(src/assets/interface/fundo.png);
+    
     .game-box
     {
         display: flex;
