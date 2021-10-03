@@ -1,4 +1,4 @@
-# AngularTetris
+# AngularTetris (VERSÃO PARA TESTES) - Desenvolvido por Gabriel Silva de Camargo
 
 Conversão da versão em C++ para navegador, utilizando angular e canvas. Tenho a intenção de tornar online mais tarde.
 
