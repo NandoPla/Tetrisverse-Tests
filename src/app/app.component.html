@@ -1,0 +1,27 @@
+<html>
+ <body>
+  <div class = "main-background-image">
+    <div class="game-hud-theme-01">
+
+      <div class="game-body">
+        <canvas width="720" height="1280" class="piece-canvas" #piecescanvas></canvas>
+        <canvas width="720" height="1280" class="piece-canvas" #fallingpiecescanvas></canvas>
+        <canvas width="720" height="1280" class="game-grid" #gridcanvas></canvas>
+      </div>
+
+    <div class="info">
+      <select #themeSelect aria-placeholder="Tema" (change)="onChangeTheme($event)">
+        <ng-container *ngFor="let item of themeList">
+        <option value="{{item.fileName}}">{{item.name}}</option>
+        </ng-container>
+      </select>
+
+    <div>Tempo para começar: {{timer}}</div>
+    <label >Pontuação: {{gamePontuation}}</label>
+    <label>Players: {{players}}</label>
+     </div>
+    </div>
+  </div>
+ </body>
+</html>
+<!-- <app-timer></app-timer> -->

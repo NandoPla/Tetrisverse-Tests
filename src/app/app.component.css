@@ -1,0 +1,14 @@
+.main-background-image{
+
+  background:url(src/assets/interface/fundo.png);
+}
+
+canvas {
+  position: absolute;
+}
+.game-grid {
+  z-index: 3;
+}
+.game-box {
+  z-index: 2;
+}
