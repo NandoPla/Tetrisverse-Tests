@@ -1,6 +1,5 @@
 .game-body
 {
-    background:url(src/assets/interface/fundo.png);
     display: flex;
     flex-direction: column;
     justify-content: normal;
@@ -59,9 +58,11 @@ select{
 }
 
 :host{
+
+    background:url(src/assets/interface/fundo.png);
     padding: 20px;
     width: 100vw;
     height: 100vh;
     display: block;
-    background-color: #b8b6b3;
+
 }
